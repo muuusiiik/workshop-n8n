@@ -1,0 +1,6 @@
+# ignore content inside the given folders
+/n8n_data/*
+/project_files/*
+# but keep the list inside .gitkeep
+!/n8n_data/.gitkeep
+!/project_files/.gitkeep
