@@ -21,3 +21,8 @@ docker-compose up -d
 # open the url in your browser
 http://localhost:5678/
 ```
+
+## NOTE
+connecting other `localhost` service inside `n8n` e.g., ollama, crawl4ai
+* replace `localhost` with `host.docker.internal`
+
