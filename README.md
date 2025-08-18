@@ -15,3 +15,9 @@ curl -fsSL https://get.docker.com | sh
 ```sh
 docker-compose up -d
 ```
+
+## Test your self-host n8n
+```sh
+# open the url in your browser
+http://localhost:5678/
+```
