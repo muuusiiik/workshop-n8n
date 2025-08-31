@@ -5,6 +5,10 @@ services:
     ports:
       - "5678:5678"
     environment:
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - DB_SQLITE_POOL_SIZE=10
+      - N8N_RUNNERS_ENABLED=true
+
       - N8N_HOST=localhost
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
