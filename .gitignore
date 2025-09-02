@@ -1,4 +1,5 @@
 # ignore content inside the given folders
 /n8n_data/*
+*DS_Store*
 # but keep the list inside .gitkeep
 !/n8n_data/.gitkeep
